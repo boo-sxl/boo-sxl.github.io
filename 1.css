@@ -1,0 +1,22 @@
+*{margin: 0;padding:0}
+.header{
+    height: 100px;
+    line-height: 100px;
+    color: #ffffff;
+    background: darkcyan;
+    text-align: center;
+}
+.content{
+    min-height:500px;
+   
+}
+.content a{
+    display: inline-block;
+    padding: 20px 50px ;
+    background: darkseagreen;
+    color:#fff; 
+    border-radius:30px ;
+} 
+a{
+    text-decoration: none;
+}
