@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  line-height: 70px;
+  box-sizing: border-box;
+  padding: 0 50px;
+  justify-content: space-between;
+}
+
+.header a {
+  color: #8e8e8e;
+  margin: 0 10px;
+}
+
+.header a:hover {
+  color: #85bf41;
+  border-bottom: 1px solid #85bf41;
+  padding: 20px 0;
+}
+
+.content {
+  min-height: 500px;
+}
+
+.fotter {
+  padding-top: 40px;
+  background: #f3f3f3;
+  color: #969696;
+}
+
+.fotter .f_t {
+  height: 192px;
+  box-sizing: border-box;
+  padding: 25px 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background: url("https://ccdn.goodq.top/caches/9b69daffc17579b848483c854813cad2/aHR0cHM6Ly81Y2RkM2FhNWM0NmVhLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMDUvNTkxNjY4MzYwNTc4MTlhMDVjNGZmNmQ5NWFjMzU0OGIuanBn.jpg");
+  background-size: cover;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+  background: url("https://ccdn.goodq.top/caches/9b69daffc17579b848483c854813cad2/aHR0cHM6Ly81Y2RkM2FhNWM0NmVhLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMDUvNjFhNzJlOWFhNThhNzVhZjY0ZGFlMjgzYTAzMDQ1NDAuanBn.jpg");
+  background-size: cover;
+}
+
+.tea {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  width: 1400px;
+}
+
+.ranges {
+  height: 2px;
+  width: 0;
+  background: #85bf41;
+  transition: 0.5s;
+  margin: 8px 0;
+}
+
+.op:hover .ranges {
+  width: 100% !important;
+}
+
+.op:hover .t_B {
+  color: #85bf41;
+}
+
+.img_B {
+  width: 80%;
+  height: 80%;
+  transition: 1s;
+}
+
+.op:hover .img_B {
+  width: 90%;
+  height: 90%;
+}
+
+.ele {
+  font-size: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-width: 2px;
+  border-color: #90af6b;
+  background-color: #90af6b;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.about1 {
+  height: 626px;
+  box-sizing: border-box;
+}
+
+.text-w {
+  color: #808080;
+  font-size: 16px;
+  width: 1160px;
+  margin: auto;
+  padding: 20px 150px;
+  box-sizing: border-box;
+  line-height: 30px;
+}
+
+.describe {
+  width: 360px;
+  color: #808080;
+  position: relative;
+  top: 0;
+}
+
+.describe img {
+  width: 360px;
+  height: 238px;
+}
+
+.describe:hover {
+  top: -15px;
+  transition: 0.5s;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background: rgba(244, 244, 244, .5);
+}
+
+.cha {
+  font-size: 26px;
+  color: #333;
+  margin-right: 780px;
+}
+
+ul li {
+  float: left;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #999;
+}
+
+.item {
+  float: left;
+  width: 262px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.item img {
+  width: 262px;
+  height: 262px;
+}
+
+.item p {
+  line-height: 2;
+  font-size: 20px;
+  color: #999;
+}
+
+.ho:hover {
+  border-bottom: 1px solid #85bf41;
+  color: #85bf41;
+}
+
+.h_p {
+  font-size: 16px !important;
+  color: #555 !important;
+}
+
+.item:hover .ranges {
+  width: 100%;
+}
+
+.item:hover .h_p {
+  color: #85bf41 !important;
+}
+
+.imgs {
+  display: flex;
+  width: 1160px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.imgs img {
+  width: 280px;
+  cursor: pointer;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+.childs {
+  width: 200px;
+  border-top: 1.5px solid #90AF6B;
+  padding-top: 20px;
+  margin-right: 40px;
+}
+
+.childs a {
+  display: block;
+  color: #888;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.childs a:hover {
+  color: #90AF6B
+}
+
+.con_c {
+  width: 920px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 12px 0;
+  border-bottom: 1px solid #ededed;
+  justify-content: space-between;
+}
+
+.tit_c {
+  font-size: 18px;
+  cursor: pointer
+}
+
+.con_c img {
+  width: 200px;
+  height: 130px;
+  transition: 1s;
+}
+
+.con_c:hover img {
+  width: 110%;
+  height: 110%;
+}
+
+.con_c:hover .tit_c {
+  color: #90AF6B;
+}

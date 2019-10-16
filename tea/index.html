@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="1.css" />
+  </head>
+
+  <body>
+    <div id="container" v-cloak="">
+      <div class="header">
+        <div style="padding-top: 8px;">
+          <img
+            width="80"
+            height="50"
+            src="https://ccdn.goodq.top/caches/9b69daffc17579b848483c854813cad2/aHR0cHM6Ly81Y2RkM2FhNWM0NmVhLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMDQvZjc0MTI0MDFiMDZjZjdjYmI4OTg5MTBjMTE2YzZlNzYucG5n.png"
+          />
+        </div>
+        <div class="nav">
+          <a href="#/">首页</a>
+          <a href="#/core2">关于</a>
+          <a href="#/core3">茶叶</a>
+          <a href="#/core4">基地</a>
+          <a href="#/core5/child2">新闻</a>
+          <a href="#/core6">练习</a>
+        </div>
+      </div>
+      <div class="content">
+        <router-view></router-view>
+      </div>
+      <div class="fotter">
+        <div class="f_t">
+          <div
+            style="width: 1200px;margin: auto;display: flex;justify-content: space-around;"
+          >
+            <div>
+              <h2
+                style="font-size: 26px;font-weight: normal;margin-bottom: 10px;"
+              >
+                联系
+              </h2>
+              <p style="font-size:13px;">Contact</p>
+            </div>
+            <div>
+              关注我们
+            </div>
+            <div style="line-height: 30px;">
+              <p style="font-size: 15px;color:#5D5D5D">起飞页自助建站平台</p>
+              <p style="font-size: 14px;">地址：苏州市建外SOHO东区2号楼</p>
+              <p style="font-size: 14px;">邮编：100000</p>
+              <p style="font-size: 14px;">电话：010-69557550</p>
+            </div>
+            <div style="display: flex;">
+              <div style="text-align: center;margin-right: 40px;">
+                <img
+                  src="https://ccdn.goodq.top/caches/9b69daffc17579b848483c854813cad2/aHR0cHM6Ly81Y2RkM2FhNWM0NmVhLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTgvMDgvNjFjNTQ1NWFmY2MyNGViMmZjY2VkOTk3YmMwMWE2MGMtMTAweDEwMC5wbmc_p_p100_p_3D.png"
+                />
+                <p>微信</p>
+              </div>
+              <div style="text-align: center;">
+                <img
+                  src="https://ccdn.goodq.top/caches/9b69daffc17579b848483c854813cad2/aHR0cHM6Ly81Y2RkM2FhNWM0NmVhLnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTgvMDgvNjFjNTQ1NWFmY2MyNGViMmZjY2VkOTk3YmMwMWE2MGMtMTAweDEwMC5wbmc_p_p100_p_3D.png"
+                />
+                <p>微博</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="width: 100%;background: #fff;height: 45px;line-height: 45px;"
+        >
+          <p style="font-size: 12px;color: #808080;padding-left:240px ;">
+            COPYRIGHT (©) 2019 茶叶类网站 京ICP备41414141414-1号
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="vue.js"></script>
+  <script src="vue-router.js"></script>
+  <script src="index.js"></script>
+  <script src="https://api.map.baidu.com/api?v=3.0&ak=ZVxQBFByXwIR6q06AXIHvxOeIRKMkO1F"></script>
+  <script src="1.js"></script>
+</html>
