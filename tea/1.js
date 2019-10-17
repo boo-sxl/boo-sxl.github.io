@@ -556,6 +556,7 @@ new Vue({
 		map.addControl(new BMap.MapTypeControl());
 		map.centerAndZoom('苏州市外河桥', 11);
 	},
+	
 	router: router,
 
 
